@@ -1,15 +1,28 @@
 body{
   display: grid;
+  background-color: rgb(252, 247, 247);
+
 }
 
 #name {
-  padding: 2%;
+  padding: 8%;
+  width: 250px;
+  /* background-color: rgb(231, 255, 247); */
 }
 
 a {
   padding: 20px;
-  font-size: 16px;
-  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  /* color: white; */
+  /* color:rgb(231, 255, 247); */
+  /* font-family: 'Urbanist', sans-serif; */
+  font-family: monospace;
+}
+
+h6 {
+  color: white;
+  font-family:monospace;
+  font-size: 20px;
 }
 
 #images {
