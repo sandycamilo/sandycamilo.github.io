@@ -6,6 +6,7 @@ body{
 div > a {
   color: rgb(0, 0, 0);
   font-size: 30px;
+  /* outline: auto; */
 }
 
 #projects > a {
