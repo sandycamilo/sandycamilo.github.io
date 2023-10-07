@@ -6,19 +6,9 @@ body{
 div > a {
   color: rgb(0, 0, 0);
   font-size: 30px;
-  /* outline: auto; */
 }
 
 #projects > a {
   font-size: 18px;
   padding-top: 40px;
-}
-
-img {
-  position: absolute;
-  background: lightgreen;
-  left: 270px;
-  top: 55px;
-  height: 400px;
-  border: 1px black solid;
 }
