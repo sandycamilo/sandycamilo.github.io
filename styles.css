@@ -1,13 +1,33 @@
 body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 100px;
+  font-family: 'Edu TAS Beginner', cursive;
+  margin: 0;
+  overflow: hidden;
 }
 
-div > a {
-  color: rgb(0, 0, 0);
-  font-size: 100px;
+img {
+  position: absolute;
 }
 
-#projects > a {
-  font-size: 20px;
+.circles {
+  position: absolute;
+  top: -40%;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 20px;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #e2ffbef6;
 }
