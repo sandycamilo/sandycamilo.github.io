@@ -16,7 +16,7 @@ circles.forEach(circle => {
 function animateCircle(circle) {
 const maxX = window.innerWidth - circle.offsetWidth;
 const maxY = window.innerHeight - circle.offsetHeight;
-const animationDuration = 5000; 
+const animationDuration = 6000; 
 
 function updatePosition() {
     const newX = Math.random() * maxX;
