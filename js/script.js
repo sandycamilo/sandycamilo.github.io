@@ -14,12 +14,13 @@ circles.forEach(circle => {
 });
 
 function animateCircle(circle) {
-const maxX = window.innerWidth - circle.offsetWidth;
-const maxY = window.innerHeight - circle.offsetHeight;
-const animationDuration = 6000; 
+    const articleHeight = document.querySelector('article').offsetHeight;
+    const footerHeight = document.querySelector('footer').offsetHeight;
+    const maxY = articleHeight - circle.offsetHeight - footerHeight;
+    const animationDuration = 6000; 
 
 function updatePosition() {
-    const newX = Math.random() * maxX;
+    const newX = Math.random() * (window.innerWidth - circle.offsetWidth);
     const newY = Math.random() * maxY;
 
     circle.style.transform = `translate(${newX}px, ${newY}px)`;
