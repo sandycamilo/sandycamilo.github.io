@@ -77,20 +77,21 @@ a {
 .circles {
   position: absolute;
   left: 1vh;
-  top: 23vh;
+  top: 1vh;
 } 
 
 .circle {
+  font-family: 'Courier New', Courier, monospace;
   width: 120px;
   height: 120px;
-  font-size: 20px;
-  text-shadow: 1px 1px rgba(156, 213, 75, 0.5);
+  font-size: 13px;
+  text-shadow: 1px 1px rgba(30, 43, 10, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
-  color: #dcf3bff6;
+  color: #d9ffe1f6;
 }
 
 .about-container {
