@@ -85,13 +85,12 @@ a {
   width: 120px;
   height: 120px;
   font-size: 13px;
-  text-shadow: 1px 1px rgba(30, 43, 10, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
-  color: #d9ffe1f6;
+  color: rgb(88, 17, 17);
 }
 
 .about-container {
