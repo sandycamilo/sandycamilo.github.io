@@ -1,5 +1,4 @@
 body {
-  font-family: 'Edu TAS Beginner', cursive;
   margin: 0;
   padding: 0;
   display: flex;
@@ -8,22 +7,24 @@ body {
   justify-content: center;
   min-height: 100vh;
   overflow-x: hidden;
+  color: rgb(123, 13, 13);
+  cursor: pointer;
 }
 
 header, nav, main, footer {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
+  width: 95%;
+  /* box-sizing: border-box; */
+  /* padding: 1px; */
 }
 
 header, footer {
   background-color: #ffe6e619;
 }
 
-main {
+/* main {
   flex: 1;
   background-color: #fff3f335;
-}
+} */
 
 .container {
   position: relative;
@@ -32,21 +33,23 @@ main {
 
 img {
   position: relative;
-  left: 1vh;
-  top: 25vh;
+  left: 2vh;
+  top: 10vh;
 }
 
 .index-container {
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   justify-content: space-around;
-  align-items: center;
-  height: 100px;
+  /* align-items: center; */
+  /* height: 10px; */
   list-style: none;
   position: relative;
-  top: 23vh;
+  top: 2vh;
   left: -1vh;
+  color: rgb(123, 13, 13);
+  padding: 20px;
 }
 
 .index-container li {
@@ -62,12 +65,12 @@ li{
 a {
   text-decoration: none;
   font-size: 4vh;
+  padding-top: 5vh;
 }
 
 .index-container a {
   text-decoration: none;
   color: inherit;
-  font-size: 25px;
 }
 
 .index-container a:hover {
@@ -81,43 +84,44 @@ a {
 } 
 
 .circle {
-  font-family: 'Courier New', Courier, monospace;
   width: 120px;
   height: 120px;
-  font-size: 13px;
+  font-size: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
-  color: rgb(88, 17, 17);
+  color: rgb(123, 13, 13);
 }
 
 .about-container {
   width: 50vh;
-  height: 40vh;
+  /* height: vh; */
 }
 
 .about-container h1 {
-  font-size: 80px;
+  font-size: 100px;
+  padding: 20px;
 }
 
 .about-container p {
-  font-size: 20px;
+  font-size: 20px; 
 }
 
 @media only screen and (min-width: 600px) {
   .index-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px; 
+    display: flex; 
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    align-items: center; 
+    height: 150px; 
     list-style: none; 
+    padding: 20px;
   }
 
-  .index-container li {
-      margin: 0; 
+  .index-container a {
+      margin: 10px;
   }
 }
 
